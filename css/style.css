@@ -1,0 +1,503 @@
+@charset "utf-8";
+/* CSS Document */
+
+.action {
+    font-size: 18px;
+    font-weight: 800;
+    color: #f62f30;
+}
+
+
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+
+.wrapper {
+	background:#f9f9f9;
+	background-image:url(img/gplaypattern.png) repeat-x;
+	
+	
+}
+.header {
+	background:#9e0b0f;
+	border-bottom-style:solid;
+	border-width:3px;
+	border-bottom-color:#f62f30;
+	}
+
+/* navagation links */
+.nav {
+	
+}
+.nav li {
+	float: left; 
+	text-decoration:none;
+	list-style-type:none;
+	display:inline-block;
+	padding:10px;
+	}
+	.nav a {
+		text-decoration:none;
+		color:#fff;
+		display:block;
+	}
+
+.navimg {
+    position: relative;
+}
+.navimg li {
+    list-style: none;
+    position: static;
+    top: 0;
+}
+.navimg li, .navimg a {
+    height:  49px;
+    display: block;
+}
+.media {
+    left: 0px;
+}
+
+
+
+	.navmedia {
+		width:100px;
+		overflow:hidden;
+		height:40px;
+	}
+    .navabout {
+        width:100px;
+		overflow:hidden;
+		height:40px;
+    }
+    .navblog {
+        width:68px;
+		overflow:hidden;
+		height:40px;
+    }
+     
+
+.logo img {
+	padding: 10px 0 0 0;
+	width:58%;
+}
+
+.hero {
+	background-size:100% auto;
+}
+	.hero h1 {
+		text-align:center;
+		padding:40px;
+		font-size:2.5em;
+		color:#f62f30;		
+	}
+
+.content {
+	padding-bottom: 100px;
+}
+
+.card {
+    height: 500px;
+    text-align: center;
+}
+.cardimg {
+    width: 100%;
+}
+
+
+.gamecard {
+	margin-top:20px;
+	background:#343434;
+	padding-bottom:60px;
+	border-top-style:solid;
+	border-width:3px;
+	border-top-color:#f62f30;
+	border-radius:0 0 4px 4px;
+    
+}
+	.gamecard p {
+		margin:20px;
+		color:#fff;
+        font-size: 14px;
+        line-height: 24px;
+        
+	}
+		.qt {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 300;
+            padding-bottom: 40px;
+		}
+	.platform {
+		width:32px;
+		height:auto;
+		
+	}
+	.key {
+		text-align:center;
+	}
+	.gamecard a:hover {
+		background-color:#f62f30;
+	}
+	
+.post {
+	padding-bottom:40px;
+}
+    .post a {
+        text-decoration: none;
+        color: #f62f30;
+        font-size: 10px;
+    }
+	.post img {
+		padding-bottom:20px;
+		border-radius:4px;
+	}
+    .r-btn {
+        font-size: 13px;
+        float: right;
+    }
+
+
+
+
+.social ul{
+    width: 70px;
+
+}
+.btn {
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 3px 0px #666666;
+  -moz-box-shadow: 0px 3px 0px #666666;
+  box-shadow: 0px 3px 0px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  background: #343434;
+  padding: 10px;
+  text-decoration: none;
+    margin-bottom: 30px;
+}
+
+
+.btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+	
+
+ /**form style**/
+#contactForm ul li {
+    text-decoration: none;
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.formstyl input{
+    display: block;
+
+}
+#formButtons {
+    float: right;
+    
+}
+#formButtons input {
+    display: block;
+}
+
+/**stick footer**/
+* {
+margin: 0;
+}
+html, body {
+height: 100%;
+}
+.max {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+}
+footer, .push {
+height: 4em;
+}
+
+footer, .push {
+clear: both;
+background:#343434;
+color:#fff;
+font-size:12px;
+padding:25px;
+}
+footer p {
+	text-align:center;
+}
+.card {
+    
+}
+
+
+.heroimg {
+    overflow: hidden;
+    width: auto;
+    height: 340px;
+}
+.profileimg {
+    background: url(../img/sahmed.png) no-repeat top right;
+    background-size: auto 538px;
+    width: auto;
+    height: 538px;
+    overflow: hidden;
+    background-color: white;
+    padding-top: 50px;
+}
+.profileimg img {
+    
+}
+.profileimg h1 {
+    font-size: 2em;
+}
+.profileimg btn {
+    margin-left: 0;
+}
+
+
+.blog {
+    padding-top: 30px;
+}
+.blog h1 {
+    font-size: 40px;
+    color: #f53435;
+    margin-bottom: 0;
+}
+.blog h2 {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.blog p {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+
+
+.side-bar {
+    width: 200px;
+    padding-top: 40px;
+
+}
+.side-bar li {
+    list-style: none;
+    line-height: 2em;
+    padding-bottom: 20px;
+}
+.side-bar a {
+    text-decoration: none;
+    color: #f53435;
+    padding-left: 6px;
+}
+
+
+
+.arch li {
+    padding-bottom: 0;
+}
+
+/** interest style**/
+.int-card {
+    background-color: #343434;
+    text-align: center;
+    border-radius: 0 0 4px 4px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #f62f30;
+}
+.int-card img {
+    
+}
+
+
+/**inner footer style**/
+.footerupdate h5 {
+    font-size: 14px;
+}
+.footupdate img{
+    width: 30px;
+    
+}
+
+/**profile**/
+
+.example {
+    padding-top: 60px;
+}
+.col2 {
+    padding: 0 0 0 30px;
+}
+.col3 {
+    padding: 0 0 0 30px;
+}
+
+
+
+/**jobs style**/
+.pstsclt {
+    padding: 0 0 200px 0;
+}
+.tag {
+    font-size: 35px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+.titleline {
+    font-size: 24px;
+}
+.jobbox {
+    width: 140px;
+    height: 200px;
+    margin: 0 20px 130px 0;
+    float: left;
+}
+
+.posit {
+    border-radius: 0 0 4px 4px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #f62f30;
+}
+
+.postitle {
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.jobcard {
+    background-color: #343434;
+    width: 140px;
+    height: 200px;
+    border-radius: 4px 4px 0 0 ;
+}
+.crdalt {
+    background-color: #ebebeb;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #343434;
+}
+    .port {
+        position: relative;
+        top: 30%;
+        left: 38%;
+    }
+    .jobcard img {
+        height: 40px;
+        width: 40px;
+    }
+    .jobtxt {
+        margin: 20px 0 20px 0;
+    }
+    .jobtxt h4 {
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+    .jobtxt p {
+        font-size: 12px;
+    }
+
+#jobsimg {
+    background: url(http://upload.wikimedia.org/wikipedia/commons/2/27/Hello_Games_staff_in_the_office.jpg) no-repeat;
+    overflow: hidden;
+    width: auto;
+    height: 340px;
+    background-size: 100%;
+    background-position: 0 -307px;
+}
+
+/**media style**/
+#mediavid {
+    width: 100%;
+}
+video 
+{
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+
+.gms {
+    padding: 40px;
+}
+    /**.gm {
+        width: 200px;
+        height: auto;
+    }**/
+
+
+
+#medcon {
+    padding-bottom: 40px;
+}
+.media-tile {
+    display: inline-block;
+    position: relative;
+    width: 220px;
+    height: 345px;
+    border-bottom: 2px solid transparent;
+    border-radius: 0 0 4px 4px;
+}
+.thumbnail {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 0 4px 4px;
+}
+.title-pane {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: .5em;
+    background-color: rgba(52, 52, 52, 0.8);
+    color: #fff;
+    border-radius: 0 0 4px 4px;
+}
+
+/*** lightbox markup ***/
+.lightbox {
+	/*** Default lightbox to hidden */
+	display: none;
+
+	/*** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+	/*** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightbox:target {
+	/*** Remove default browser outline */
+	outline: none;
+
+	/*** Unhide lightbox */
+	display: block;
+}
+.med {
+    padding-bottom: 20px;
+}
